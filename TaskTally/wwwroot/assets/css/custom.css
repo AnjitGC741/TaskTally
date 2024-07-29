@@ -1,0 +1,73 @@
+/*
+Template Name: Velzon - Admin & Dashboard Template
+Author: Themesbrand
+Website: https://themesbrand.com/
+Contact: support@themesbrand.com
+File: Custom Css File
+*/
+
+@font-face {
+    font-family: "Kokila";
+    src: url("../fonts/kokila.eot");
+    src: url("../fonts/kokila.eot?#iefix")format("embedded-opentype"), url("../fonts/kokila.woff")format("woff"), url("../fonts/kokila.woff2")format("woff2"), url("../fonts/kokila.ttf")format("truetype"), url("../fonts/kokila.svg#Kokila")format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.fn_kokila, .fn_kokila * {
+    font-family: Kokila, sans-serif
+}
+
+.printFN1 {
+    font-size: 23px;
+}
+
+.printFN2 {
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+.fn_himalayan, .fn_kokila .fn_himalayan {
+    font-family: 'HIMALAYA TT FONT', 'FONTASY_ HIMALI_ TT', Preeti;
+    font-size: 75%;
+}
+
+.active {
+    color: #1e88e5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .active:hover {
+        text-decoration: underline;
+    }
+
+.header-color, .letterColorMain, .letterColorMain span {
+    color: red;
+}
+
+.printPageHeader img {
+    max-height: 150px;
+    width: 100%;
+}
+
+.printPageFooter {
+    position: fixed;
+    bottom: 0;
+}
+
+.finalLetterDepLogo img {
+    max-height: 50px;
+    width: 100%;
+}
+
+@media print {
+    body, .card, .main-content {
+        background: #fff;
+    }
+
+    .border {
+        border: none;
+    }
+}
